@@ -1,0 +1,70 @@
+[
+  {
+    "id": "squid",
+    "label": "Squid Proxy",
+    "paths": [
+      "/var/log/squid",
+      "/var/log/squid3",
+      "/usr/local/squid/logs",
+      "/var/squid/logs"
+    ],
+    "log_prefix": "",
+    "log_patterns": [
+      "access.log",
+      "error.log",
+      "cache.log",
+      "store.log"
+    ]
+  },
+  {
+    "id": "nginx",
+    "label": "Nginx",
+    "paths": [
+      "/var/log/nginx"
+    ],
+    "log_prefix": "",
+    "log_patterns": [
+      "access.log",
+      "error.log"
+    ]
+  },
+  {
+    "id": "pihole",
+    "label": "Pi-hole",
+    "paths": [
+      "/var/log/pihole",
+      "/var/log/pihole.log"
+    ],
+    "log_prefix": "",
+    "log_patterns": [
+      "pihole.log",
+      "FTL.log",
+      "pihole-FTL.log",
+      "query.log"
+    ]
+  },
+  {
+    "id": "adguard",
+    "label": "AdGuard Home",
+    "paths": [
+      "/var/log",
+      "/opt/AdGuardHome/work",
+      "/opt/AdGuardHome",
+      "/var/lib/AdGuardHome"
+    ],
+    "log_prefix": "adguarddns",
+    "log_patterns": [
+      "AdGuardHome.out",
+      "AdGuardHome.err"
+    ]
+  },
+  {
+    "id": "custom",
+    "label": "Ruta personalizada",
+    "paths": [],
+    "log_prefix": "",
+    "log_patterns": [
+      "*.log"
+    ]
+  }
+]
