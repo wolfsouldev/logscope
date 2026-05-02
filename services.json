@@ -8,7 +8,7 @@
       "/usr/local/squid/logs",
       "/var/squid/logs"
     ],
-    "log_prefix": "",
+    "log_prefix": "access.log",
     "log_patterns": [
       "access.log",
       "error.log",
@@ -35,7 +35,7 @@
       "/var/log/pihole",
       "/var/log/pihole.log"
     ],
-    "log_prefix": "",
+    "log_prefix": "pihole",
     "log_patterns": [
       "pihole.log",
       "FTL.log",
