@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from dataclasses import dataclass
 
-VERSION = "1.1.0"
+VERSION = "1.0.0"
 APP_NAME = "logscope"
 
 CONFIG_FILE = Path(__file__).parent / "services.json"
